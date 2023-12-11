@@ -1,0 +1,87 @@
+body {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://www.ibts.org/wp-content/uploads/2017/07/iStock-682560090.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f3f3f3;
+
+}
+
+.container {
+  width: 80%;
+  background-color: rgba(27, 27, 50, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  font-family: Tahoma;
+  font-size: 16px;
+  
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+  line-height: 0.5;
+  color: #f3f3f3
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+
+}
+
+fieldset {
+  border: none;
+  padding: 1.5rem 0;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 5px 0 0 0;
+  width: 100%;
+  min-height: 2.5em
+}
+
+input, textarea {
+  border: 1px solid #0a0a23;
+  padding: 0.5em;
+  color: #0a0a23;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+textarea[name="comments"] {
+  padding: 1em 0 1em 1em;
+  color: fieldtext;
+}
+
+input[type="submit"] {
+  background-color: #37af65;
+  color: #f3f3f3;
+}
