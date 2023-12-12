@@ -20,9 +20,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  max-width: 500px;
+  max-width: 450px;
+  min-width: 200px;
   font-family: Tahoma;
   font-size: 16px;
+  border-radius: 10px;
   
 }
 
@@ -34,9 +36,9 @@ h1, p {
 }
 
 form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
+  width: 90vw;
+  max-width: 380px;
+  min-width: 50px;
   margin: 0 auto;
   padding-bottom: 2em;
 
@@ -44,7 +46,11 @@ form {
 
 fieldset {
   border: none;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
+}
+
+input {
+  border-radius: 8px;
 }
 
 fieldset:last-of-type {
@@ -55,6 +61,7 @@ label {
   display: block;
   margin: 0.5rem 0;
 }
+
 
 input,
 textarea,
@@ -84,4 +91,7 @@ textarea[name="comments"] {
 input[type="submit"] {
   background-color: #37af65;
   color: #f3f3f3;
+  border: none;
+  padding: 12p 0;
+  margin: auto;
 }
