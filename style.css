@@ -3,16 +3,18 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://www.ibts.org/wp-content/uploads/2017/07/iStock-682560090.jpg);
+  background-image: linear-gradient(rgba(58, 58, 158, 0.8), rgba(172, 57, 57, 0.7) ), url(https://www.ibts.org/wp-content/uploads/2017/07/iStock-682560090.jpg);
   background-attachment: fixed;
   background-position: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: Verdana,sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.4;
+  letter-spacing: 1px;
   color: #f3f3f3;
 
 }
+
 
 .container {
   width: 80%;
@@ -66,10 +68,11 @@ label {
 input,
 textarea,
 select {
-  margin: 5px 0 0 0;
+  margin: 10px 0 0 0;
   width: 100%;
   min-height: 2.5em
 }
+
 
 input, textarea {
   border: 1px solid #0a0a23;
