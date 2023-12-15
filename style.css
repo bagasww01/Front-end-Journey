@@ -32,11 +32,19 @@ header {
   width: 100vw;
   height: 10vh;
   display: inline-block;
-  background-color: rgba(22, 22, 117, 50%);
-  margin: -20px 0  0 -5px;
+  background-color: rgba(5, 5, 26, 0.5);
+  margin: -20px 0  0 -10px;
   padding-bottom: 15px;
   padding-top: 8px;
 
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: cyan;
 }
 
 h1, p {
