@@ -1,5 +1,12 @@
 # This is the first project that I built after completing the freecodecamp.org Responsive Web Design Certificate. 
 
---> This is the first project - the survey form.
+--> Survey Form
+1. I have completed it but i stil improved its layout so it looks better
 
---> There are 4 more projects to go!
+--> Tribute Page
+1. Recently, i've done the tribute page certificate fo in freeCodeCamp.org
+2. It's a tribute to the beloved person, prophet Muhammad peace be upon him.
+
+--> There are 3 more projects to go!
+
+
