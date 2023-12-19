@@ -32,6 +32,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    flex-wrap: wrap;
   }
   
   .first-nav > ul > li {
@@ -103,6 +104,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   #image3 {
@@ -127,6 +129,7 @@ body {
     padding-top: 20px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   ul > li:first-child {
