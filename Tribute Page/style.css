@@ -93,10 +93,18 @@ body {
   .child-column-one > ul > li {
     margin: 16px 0;
   }
-  
-  #image2 {
+ 
+  #image2, #image3 {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #image2, #image3 {
+    width: 250px;
+    height: 200px;
     max-width: 20vw;
-    aspect-ratio: 3 / 2.5;
     padding: 0.4rem;
   }
   
@@ -105,12 +113,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-  }
-  
-  #image3 {
-    max-width: 20vw;
-    aspect-ratio: 3 / 2.5;
-    padding: 0.4rem;
   }
   
   .child-column-fourth > ul {
