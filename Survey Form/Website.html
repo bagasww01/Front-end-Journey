@@ -15,89 +15,86 @@
 
 <body class="in preload">    
     <!--****************************** HEADER ******************************-->
-  <main> 
-    <header>    
-      <div>
-        <nav>
-          <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>MORE</li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-  </main> 
+  <header>    
+      <nav>
+        <ul>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>MORE</li>
+        </ul>
+      </nav>
+  </header>
       <!--****************************** END ******************************-->
 
+  <main>
+    <h1 id="title">Data Mahasiswa Sastra Arab</h1>
+    <p id="description">KHUSUS MASISWA ANGKATAN 2019</p>
+    <p>(bagas_wiradinata)</p>
+    <div class="container">
+      <form method="post" id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">Nama <input id="name" type="text" name="name" required placeholder=" Enter your name"></label>
+          <label for="email" id="email-label">Email <input id="email" type="email" name="email" placeholder=" Enter your email" required></label>
+          <label for="number" id="number-label">Umur (optional) <input id="number" type="number" min="1" max="99" placeholder=" Age" required></label>
+          <label for="referrer">Status
+            <select id="dropdown" name="referrer" class="dropdown">
+              <option selected disabled>Status sekarang</option>
+              <option>Lulus</option>
+              <option>Belum Lulus</option>
+              <option>Akan Lulus</option>
+              <option>Tidak Mau Lulus</option>
+              <option>lainnya</option>
+            </select>
+          </label>
+        </fieldset>
+    <!-- Finish the First Section -->
 
-  <h1 id="title">Data Mahasiswa Sastra Arab</h1>
-  <p id="description">KHUSUS MASISWA ANGKATAN 2019</p>
-  <p>(bagas_wiradinata)</p>
-  <div class="container">
-    <form method="post" id="survey-form">
-      <fieldset>
-        <label for="name" id="name-label">Nama <input id="name" type="text" name="name" required placeholder=" Enter your name"></label>
-        <label for="email" id="email-label">Email <input id="email" type="email" name="email" placeholder=" Enter your email" required></label>
-        <label for="number" id="number-label">Umur (optional) <input id="number" type="number" min="1" max="99" placeholder=" Age" required></label>
-        <label for="referrer">Status
-          <select id="dropdown" name="referrer" class="dropdown">
-            <option selected disabled>Status sekarang</option>
-            <option>Lulus</option>
-            <option>Belum Lulus</option>
-            <option>Akan Lulus</option>
-            <option>Tidak Mau Lulus</option>
-            <option>lainnya</option>
-          </select>
-        </label>
-      </fieldset>
-  <!-- Finish the First Section -->
+    <!-- Start the Seciond Section -->
+        <fieldset>
+          <legend>Apakah kamu suka menjadi mahasiswa Sastra Arab?</legend>
+          <label for="definitely"><input id="definitely" type="radio" class="inline" name="recomend" value="Definitely" selected> Tentunya!</label>
+          <label for="maybe"><input id="maybe" type="radio" class="inline" name="recomend" value="Definitely"> Mungkin</label>
+          <label for="not-sure"><input id="not-sure" type="radio" class="inline" name="recomend" value="Not-sure"> Tidak tahu</label>
+        <fieldset>
+          <label for="referrer">Opsi apa yang menjelaskan kondisimu sekarang?
+            <select id="referrer" name="referrer">
+              <option selected disabled>Select an option</option>
+              <option>Malas</option>
+              <option>Semangat</option>
+              <option>Biasa Saja</option>
+              <option>BINGUNG!!!</option>
+            </select>
+          </label>
+        </fieldset>
+    <!-- Finish the Second Section -->
 
-  <!-- Start the Seciond Section -->
-      <fieldset>
-        <legend>Apakah kamu suka menjadi mahasiswa Sastra Arab?</legend>
-        <label for="definitely"><input id="definitely" type="radio" class="inline" name="recomend" value="Definitely" selected> Tentunya!</label>
-        <label for="maybe"><input id="maybe" type="radio" class="inline" name="recomend" value="Definitely"> Mungkin</label>
-        <label for="not-sure"><input id="not-sure" type="radio" class="inline" name="recomend" value="Not-sure"> Tidak tahu</label>
-      <fieldset>
-        <label for="referrer">Opsi apa yang menjelaskan kondisimu sekarang?
-          <select id="referrer" name="referrer">
-            <option selected disabled>Select an option</option>
-            <option>Malas</option>
-            <option>Semangat</option>
-            <option>Biasa Saja</option>
-            <option>BINGUNG!!!</option>
-          </select>
-        </label>
-      </fieldset>
-  <!-- Finish the Second Section -->
+    <!-- Start the Third Section -->
+        <fieldset>
+          <legend>Apa yang perlu ditingkatkan di Sastra Arab</legend>
+          <label for="front-end"><input id="front-end" type="checkbox" class="inline" value="Front-end">Pembelajaran</label>
+          <label for="back-end"><input id="back-end" type="checkbox" class="inline" value="Back-end">Fasilitas</label>
+          <label for="data"><input id="data" type="checkbox" class="inline" value="Data">Layanan Administrasi</label>
+          <label for="challenges"><input id="challenges" type="checkbox" class="inline" value="Challanges">Kebersihan</label>
+          <label for="open"><input id="open" type="checkbox" class="inline" value="Open">Koneksi Jaringan</label>
+          <label for="gitter"><input id="gitter" type="checkbox" class="inline" value="Gitter">Keahlian Dosen</label>
+          <label for="videos"><input id="videos" type="checkbox" class="inline" value="Videos">Lainnya</label>
+        </fieldset>
+    <!-- Finish the Third Section -->
 
-  <!-- Start the Third Section -->
-      <fieldset>
-        <legend>Apa yang perlu ditingkatkan di Sastra Arab</legend>
-        <label for="front-end"><input id="front-end" type="checkbox" class="inline" value="Front-end">Pembelajaran</label>
-        <label for="back-end"><input id="back-end" type="checkbox" class="inline" value="Back-end">Fasilitas</label>
-        <label for="data"><input id="data" type="checkbox" class="inline" value="Data">Layanan Administrasi</label>
-        <label for="challenges"><input id="challenges" type="checkbox" class="inline" value="Challanges">Kebersihan</label>
-        <label for="open"><input id="open" type="checkbox" class="inline" value="Open">Koneksi Jaringan</label>
-        <label for="gitter"><input id="gitter" type="checkbox" class="inline" value="Gitter">Keahlian Dosen</label>
-        <label for="videos"><input id="videos" type="checkbox" class="inline" value="Videos">Lainnya</label>
-      </fieldset>
-  <!-- Finish the Third Section -->
+    <!-- Start the Fourth Section -->
+        <fieldset>
+          <label for="comments">Apakah ada saran lain?
+            <textarea id="comments" name="comments" row="3" col="40" placeholder="Ketik di sini..." required></textarea>
+          </label>
+        </fieldset>
+    <!-- Finish the Fourth Section -->
 
-  <!-- Start the Fourth Section -->
-      <fieldset>
-        <label for="comments">Apakah ada saran lain?
-          <textarea id="comments" name="comments" row="3" col="40" placeholder="Ketik di sini..." required></textarea>
-        </label>
-      </fieldset>
-  <!-- Finish the Fourth Section -->
-
-  <!-- Start the Fifth Section -->
-      <fieldset>
-        <input type="submit" value="Submit" id="submit">
-      </fieldset>
-    </form>
-  </div>
+    <!-- Start the Fifth Section -->
+        <fieldset>
+          <input type="submit" value="Submit" id="submit">
+        </fieldset>
+      </form>
+    </div>
+  </main>
 </body>
 </html>
