@@ -1,4 +1,4 @@
-# This is the first project that I built after completing the freecodecamp.org Responsive Web Design Certificate. 
+# These will be the projects that i will build for the freecodecamp.org Responsive Web Design Certificate. 
 
 --> Survey Form
 1. I have completed it but i stil improved its layout so it looks better
