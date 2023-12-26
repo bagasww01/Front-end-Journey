@@ -8,6 +8,186 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav id="navbar">
+        <header>CSS Selectors Documentation</header>
+        <ul>
+            <li>
+                <a class="nav-link" href="#Introduction">Introduction</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#The_CSS_element_Selector">The CSS element Selector</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#The_CSS_id_Selector">The CSS id Selector</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#The_CSS_class_Selector">The CSS class Selector</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#The_CSS_Universal_Selector">The CSS Universal Selector</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#The_CSS_Grouping_Selector">The CSS Grouping Selector</a>
+            </li>
+        </ul>
+    </nav>
+
+            <!-- Start of the First Section -->
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+                <p>We can divide CSS selectors into five categories:</p>
+                    <ul>
+                        <li>Simple selectors (select elements based on name, id, class)</li>
+                        <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+                        <li>Pseudo-class selectors (select elements based on a certain state)</li>
+                        <li>Pseudo-elements selectors (select and style a part of an element)</li>
+                        <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+                    </ul>
+                <p>This page will explain the most basic CSS selectors.</p>
+            </article>
+        </section>
+
+            <!-- End of the First Section -->
+
+            <!-- Start of the Second Section -->
+
+        <section class="main-section" id="The_CSS_element_Selector">
+            <header>The CSS element Selector</header>
+            <article>
+                <p>The element selector selects HTML elements based on the element name.</p>
+                <h3>Example</h3>
+                <p>Here, all <_p_> elements on the page will be center-aligned, with a red text color:</p>
+                <code>
+                    p {
+                      text-align: center;
+                      color: red;
+                    }
+                </code>
+            </article>
+        </section>
+
+            <!-- End of the Second Section -->
+
+            <!-- Start of the Thrid Section -->
+
+        <section class="main-section" id="The_CSS_id_Selector">
+            <header>The CSS id Selector</header>
+            <article>
+                <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+                <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
+                <p>To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+                <h3>Example</h3>
+                <p>The CSS rule below will be applied to the HTML element with id="para1":</p>
+                <code>
+                    #para1 {
+                        text-align: center;
+                        color: red;
+                    }
+                </code>
+                <p>
+                    <strong>Note: </strong>
+                    An id name cannot start with a number!
+                </p>
+            </article>
+        </section>
+
+            <!-- End of the Third Section -->
+
+            <!-- Start of the Fourth Section -->
+
+        <section class="main-section" id="The_CSS_class_Selector">
+            <header>The CSS class Selector</header>
+            <article>
+                <p>The class selector selects HTML elements with a specific class attribute.</p>
+                <p>To select elements with a specific class, write a period (.) character, followed by the class name.</p>
+                <h3>Example</h3>
+                <p>In this example all HTML elements with class="center" will be red and center-aligned: </p>
+                <code>
+                    .center {
+                        text-align: center;
+                        color: red;
+                    }
+                </code>
+                <p>You can also specify that only specific HTML elements should be affected by a class.</p>
+                <h3>Example</h3>
+                <p>In this example only <p> elements with class="center" will be red and center-aligned:</p>
+                <code>
+                    p.center {
+                        text-align: center;
+                        color: red;
+                    }
+                </code>
+                <p>
+                    <strong>Note: </strong>
+                    A class name cannot start with a number!
+                </p>
+            </article>
+        </section>
+
+            <!-- End of the Fourth Section -->
+
+            <!-- Start of the Fifth Section -->
+
+        <section class="main-section" id="The_CSS_Universal_Selector">
+            <header>The CSS Universal Selector</header>
+            <article>
+                <p>The universal selector (*) selects all HTML elements on the page.</p>
+                <h3>Example</h3>
+                <p>The CSS rule below will affect every HTML element on the page: </p>
+                <code>
+                    * {
+                      text-align: center;
+                      color: blue;
+                    }
+                </code>
+            </article>
+        </section>
+
+            <!-- End of the Fifth Section -->
+
+            <!-- Start of the Sixth Section -->
+
+        <section class="main-section" id="The_CSS_Grouping_Selector">
+            <header>The CSS Grouping Selector</header>
+            <article>
+                <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+                <p>Look at the following CSS code (the h1, h2, and p elements have the same style definitions):</p>
+                <code>
+                    h1 {
+                      text-align: center;
+                      color: red;
+                    }
+                </code>
+                <code>
+                    h2 {
+                     text-align: center;
+                     color: red;
+                    }
+                </code>
+                <code>
+                    p {
+                      text-align: center;
+                      color: red;
+                    }
+                </code>
+                <p>It will be better to group the selectors, to minimize the code.</p>
+                <p>To group selectors, separate each selector with a comma.</p>
+                <h3>Example</h3>
+                <p>In this example we have grouped the selectors from the code above: </p>
+                <code>
+                    h1, h2, p {
+                       text-align: center;
+                       color: red;
+                    }
+                </code>
+            </article>
+        </section>
+
+            <!-- End of the Sixth Section -->
+
+    </main>
 </body>
 </html>
