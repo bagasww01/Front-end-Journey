@@ -30,6 +30,10 @@ body {
     width: 100%;
   }
   
+  a {
+    color: #4d4e53;
+  }
+
   header {
     color: black;
     font-size: 2rem;
@@ -37,6 +41,7 @@ body {
   
   #main-doc {
     position: absolute;
+    width: 100vw;
     margin-left: 310px;
     padding: 20px;
     margin-bottom: 110px;
@@ -69,9 +74,17 @@ body {
     display: block;
   }
   
-  @media (max-width: 950px) {
+  @media (max-width: 1200px) {
     #main-doc {
-      width: 460px;
+      width: 600px;
     }
   }
+
+  @media (max-width: 800px) {
+    #main-doc {
+      width: 400px;
+    }
+  }
+
+
   
