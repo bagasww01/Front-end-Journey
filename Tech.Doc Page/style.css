@@ -47,6 +47,10 @@ body {
     margin-bottom: 110px;
   }
   
+  footer a {
+    color: blue;
+  }
+
   section {
     display: block;
   }
