@@ -1,0 +1,75 @@
+<style>
+    :root {
+        --primarycolor: #f57170;
+        --backgroundcolor1: #f5f5f5;
+        --secondarycolor1: #dbdbdb;
+        --secondarycolor2: #f24240;
+        --secondarycolor3: #f8a0a0;
+        --secondarycolor4: #ffffff;
+    }
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: var(--backgroundcolor1);
+    }
+    #wrapper {
+        position: relative;
+    }
+    #header {
+        position: fixed;
+        top: 0;
+        min-height: 75px;
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo {
+        width: 60vw;
+        padding-left: 80px;
+        color: var(--primarycolor);
+        font-size: 25px;
+    }
+    nav {
+        font-weight: 400;
+    }
+    nav ul {
+        width: 35vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    nav ul li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: var(--primarycolor);
+    }
+
+</style>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class="logo">
+                <p>Showroom</p>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#features" class="nav-link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#how-it-works" class="nav-link">How It Works</a>
+                    </li>
+                    <li>
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+</body>

@@ -6,8 +6,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pruduct Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
 </head>
 <body>
-    
+    <div id="wrapper">
+        <header id="header">
+            <div class="logo">
+                <img
+                    id="header-img"
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                    alt="original trombones logo"
+                 />
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#features" class="nav-link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#how-it-works" class="nav-link">How It Works</a>
+                    </li>
+                    <li>
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="hero">
+            <h2>Subscribe</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input 
+                    name="email"
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email here"
+                    required
+                >
+                <input id="submit" type="submit" value="Get Started" class="btn">
+            </form>
+        </section>
+        <div class="container">
+            <section id="features">
+                <div class="hero1">
+                    <div class="icon">
+                        <i class="fa-solid fa-tv fa-3x"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Enjoy on your TV</h2>
+                        <p>
+                            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+                        </p>
+                    </div>
+                </div>
+                <div class="hero1">
+                    <div class="icon">
+                        <i class="fa-solid fa-download fa-3x"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Download your shows to watch offline</h2>
+                        <p>
+                            Save your favorites easily and always have something to watch.
+                        </p>
+                    </div>
+                </div>
+                <div class="hero1">
+                    <div class="icon">
+                        <i class="fa-solid fa-children fa-3x"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Watch everyhere with your family</h2>
+                        <p>
+                            Enjoy quality time with your loved ones wherever you go! bringing entertainment to every corner of your life.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe 
+                    id="video"
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/xrRDlOWR1OU?si=BNVGzAWOKkkMu-4t" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen
+                >
+                </iframe>            
+            </section>
+            <section id="pricing">
+                <div class="pricing">
+                    <div class="product" id="basic">
+                        <div class="level">Basic</div>
+                        <h2>$600</h2>
+                        <p>720p</p>
+                        <p>1 device at a time</p>
+                        <p>Unlimited ad-free movies</p>
+                        <button>Add to Card</button>
+                    </div>
+                    <div class="product" id="standard">
+                        <div class="level">Standard</div>
+                        <h2>$800</h2>
+                        <p>1080p</p>
+                        <p>4 devices at a time</p>
+                        <p>Unlimited ad-free movies</p>
+                        <button>Add to Card</button>
+                    </div>
+                    <div class="product" id="premium">
+                        <div class="level">Premium</div>
+                        <h2>$1200</h2>
+                        <p>4K Resolution</p>
+                        <p>6 devices at a time</p>
+                        <p>Unlimited ad-free movies</p>
+                        <button>Add to Card</button>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2016, Original Trombones</span>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>

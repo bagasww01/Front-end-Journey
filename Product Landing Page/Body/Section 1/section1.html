@@ -1,0 +1,55 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    #hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 200px;
+        margin-top: 50px;
+    }
+    form {
+        display: block;
+    }
+    h2 {
+        margin-bottom: 15px;
+    }
+    #hero input[type='email'] {
+        max-width: 275px;
+        width: 100%;
+        padding: 5px;
+    }
+    #hero input[type='submit'] {
+        max-width: 150px;
+        width: 100%;
+        height: 30px;
+        margin: 10px 0;
+        background-color: orange;
+        border: 0;
+    }
+    .btn {
+        padding: 0 20px;
+        font-size: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <section id="hero">
+        <h2>Subscribe</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input 
+                name="email"
+                type="email"
+                id="email"
+                placeholder="Enter your email here"
+                required
+            >
+            <input id="submit" type="submit" value="Get Started" class="btn">
+        </form>
+    </section>
+</body>
