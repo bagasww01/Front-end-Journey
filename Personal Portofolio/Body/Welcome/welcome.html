@@ -1,0 +1,59 @@
+<style>
+    :root {
+        --main-white: #f0f0f0;
+        --main-red: #be3144;
+        --main-blue: #45567d;
+        --main-gray: #303841;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 1px solid red;
+    }
+    html {
+        /* Set font size for easy rem calculations
+        * default document font size = 16px, 1rem = 16px, 100% = 16px
+        * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+        */
+       font-size: 62.5%;
+    }
+    body {
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: var(--main-white);
+    }
+    h1,
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .welcome-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.795);
+    }
+    .welcome-section > p {
+        color: var(--main-red);
+        font-size: 3rem;
+        font-weight: 200;
+        font-style: italic;
+    }
+</style>
+<body>
+    <!-- START WELCOME SECTION -->
+    <section id="welcome-section" class="welcome-section">
+        <h1>Hey I am Bagas Wiradinata</h1>
+        <p>a web developer</p>
+    </section>
+    <!-- END WELCOME SECTION -->
+</body>

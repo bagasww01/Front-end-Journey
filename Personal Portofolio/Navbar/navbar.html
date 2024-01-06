@@ -1,0 +1,70 @@
+<style>
+    :root {
+        --main-white: #f0f0f0;
+        --main-red: #be3144;
+        --main-blue: #45567d;
+        --main-gray: #303841;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 1px solid black;
+    }
+    html {
+        /* Set font size for easy rem calculations
+        * default document font size = 16px, 1rem = 16px, 100% = 16px
+        * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+        */
+       font-size: 62.5%;
+    }
+    body {
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: var(--main-white);
+    }
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: var(--main-white);
+    }
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        background-color: var(--main-red);
+    }
+    .nav-list {
+        display: flex;
+        margin-right: 2rem;
+    }
+    .nav-list a {
+        display: block;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .nav-list a:hover {
+        background-color: var(--main-blue);
+    }
+</style>
+<body>
+    <!-- START NAV -->
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome-section">About</a>
+            </li>
+            <li>
+                <a href="#projects">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- END NAV -->
+
+</body>

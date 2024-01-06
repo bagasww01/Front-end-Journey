@@ -6,8 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portofolio</title>
     <link rel="stylesheet" href="style.css">
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
 </head>
 <body>
-    
+    <!-- START NAV -->
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome-section">About</a>
+            </li>
+            <li>
+                <a href="#projects">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- END NAV -->
+
+     <!-- START WELCOME SECTION -->
+     <section id="welcome-section" class="welcome-section">
+        <h1>Hey I am Bagas Wiradinata</h1>
+        <p>a web developer</p>
+    </section>
+    <!-- END WELCOME SECTION -->
+
+    <!-- START PROJECT SECTION -->
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">My Projects</h2>
+        <div class="projects-grid">
+            <a 
+            href="https://codepen.io/Bgass-the-lessful/pen/GRepQyz" 
+            target="_blank" 
+            class="project project-tile"
+            >
+                <img 
+                src="https://lh3.googleusercontent.com/pw/ABLVV87awapSilfaidahma4kUDSj2eImDoIIgYO-ZCJOjE8w1SOsZ88tvAUvcdIjovQ6nhOptDPsJmsvVELIk1AC1diebLKTEhXe9PCOquEbooS5xVxn9MrHZ5K9xkJ8np81Ldz4s4g3GrAltbmTMP61ESMTZCvK1gVjyLp5dJLMdkygyGSL7HdHZKVpvou6ZOo_HHdvGhwXz0oNJiQc9g9Sx4LHBYKJqCZvyVVUHCbiLWh5xE6Pk-xnRzPouhIO6HePcrxnk3kEONUQI12VgdLc0hlwnVs3r62BekgKDBDPjSbM0wNXo0gb9WULrPVzo9wtRcHHyfi0BrzFdbPJQeDhxMTpLFToiXkyryONCNzApSKLiRU3qMQnMPOVDcaJ0mPTQVWF7hNLDRcQPHqMCOEjRNtp9ux9u7FJxGaay5iAAr33tu2t8nU0EzRzR0-inSZHbaqluSXV3O3we7rkDlKMaKKqO49DoO-X3aLpokje6hV2CAnINc5GuZpfWT64TSdU85D2I6Hb9br2UZIh4mBVL73eLOHhdpVwH16krwmjJziVJR63Lwe7SRmvQz7gvIeE4lLLtyiNDeQSkjyoJrbq_YD1JBhb_AGbZSgk2aBEa8r_pvBdoZD-9EP8kH9ai9r--5fxegB1DofcZ3CGdJBb3WxjDB3kOz_in4khA8S2z854eT9H2vsJCXaqDdGNImpZ4hJFJEC0A28-dwppcMFXCPM4PqBqd51_V_NZ8xLVXNwwnaHc4V4NdShlfK5Quae9mjzSjRNVW3C6gOVNjiW8nV9tW811t_wAnUMZmn-tB3CqCOGiZIU9mJYGSypt8cen7NQStp9GgDYBGQliqQBJ0AcHSQiGasUE1nK6BHX3gFrXOgYHGGsMo6PuNnngRReJ9FgWu9o=w1776-h1322-s-no-gm?authuser=0" 
+                alt="Product landing page"
+                >
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Product Landing Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a 
+            href="https://codepen.io/Bgass-the-lessful/pen/LYaNGbw" 
+            target="_blank" 
+            class="project project-tile"
+            >
+                <img 
+                src="https://lh3.googleusercontent.com/pw/ABLVV87uipOJE2WHLml8hBwdFVQmFtaZ9KOC8-TAZ4VpoeHlCWYnYWWAVbRgdzpoEh2PYMNhTNWLPsYyIGYw7_g2bgjoyt0TggsXzOUqAdvnVqQZtDZ6XgTbF2sIQG0zgNEAfHkEJ5wbS5f9D4joKhKt8l-_C9lmHIgtWRX4sKLx1MfUNFgbld53uQ-5ex8odqtRSdVJ7ojgoxokk721rgxBhqoVOS9MogEfIT1m-M6-w9-o4C5KXzsRj-03_4c2jA6_4Hx_Vitmw-8rZnwhgXfosNft6XO0teVlZ35RWHKxf-HSK7KOoW3Ptf-7W-JziPfLV-z8tqCcOLdzTqd8EHVZN8vG3YD5mmFGU50PBYEYtXdE0x5TOeynezaMF9h4u0FGWd5kKDH3bJOMJ9g6BxDAJFEjGB42D9OSUVa8aNUSkK_WJad6oGqOAIV81_rIav-k3RhdUpfAiFQZuIcKkGr1Oo6TrfHrfG3LuW2SmVgaLiWrlyW0AvcaznwsHs3RGhWRlCn-YYLCYg04yrHTU9kJJA1R14IlBAlPbHjl4sOWNDOGE4FtmlEdLcRGT-CRZqIrEZQoqqGkhDujqIlbmOGgAER14xxZd7XSgtrx5JduPKDx07XsIy_k5VpH9ixiW6OIH-wMuMaTUas_giQcpIQtLyfSSEjmiE9U2Q6EdAW74eQRwUXft8S78HqcC9krCNzzQ7dFWL4Ecr8btAwUL_imcIButZlaY-O7M29akM_zPPo3DCFJCTG3lfO0BH6FbhSocSU9OgmwdohVOxu7B5FE0yQHOklXE_rwXp5F2egGC5o3NuHfMCv5h44q_VanIAcbs56d1Y0lHKO5_Ar9KuW2LqVuR32MoDQ_x2c7_FpA9qXIe6ALO4eyyhlaNYV1IdF6nZTf45s=w1568-h1326-s-no-gm?authuser=0" 
+                alt="Tribute Page"
+                >
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Tribute Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a 
+            href="https://codepen.io/Bgass-the-lessful/pen/yLwOeVj" 
+            target="_blank" 
+            class="project project-tile"
+            >
+                <img 
+                src="https://lh3.googleusercontent.com/pw/ABLVV85BAOOS0sEZhoIfnDoCgg_9jJtRbZeXCT2OaCVtERj0kVR8uhDvGx7iCUPOko4hzU7LCvkqZi1VCNCPDPifH8YPFSGH8_0DRNSUWf2t2o59uyNvxZBsrmxU4vhng2WjgNZHuUaqRSg6k1zX5t_adpFs7myGpyd9W3KmZ1pibIMXJBUCNgcq1qbzs7YIVhvmBiNXcobSOlWrzuJQqvwprNR53aQBs5rTmTCs_zYLsTY4BJRUtmaMr22elnosrHcpXuJyRwmt5jFGx1nJZleDc66jKaRvu3d6dG6zezB2WW6QCMH2MVWe_og_YW47JGYJ5OZMV2r5qmEMX86pFWVEzHa8XotpT_-57pV6kWLCohDukrUfD6OSM_FWCXY088k8MZPFtsMS1vGEUGwJAUlgU63jbPkgDIZ6qwtB45N5zQ5RDZplzYfKReEa5gIFSxX3uGt10A7FDEB-ECgfjL-lgqgZtuoIRcHBeLmQ_LZXtvRyMHt36SI1OYJx6yBQobZnIc90d2WpGvcxdYQvzXUNBIauG8hQb34wOdnxKmnICpv1OD2NBKbdhuv0EeBUy8YD7F1EGqB87fcjzWCcOBldyV8JYh3eypJqiFULYlO-pG77DZloZgIlfdVF5Ec73nRTOcBtjA2_aUbadyc2-6WDXd3kYItecvEGv6kTXgzNG1xmdwovAAkOZZ0zRxhT6Ke7k0IGVF5Z0eIIgzg5LRcNiJZzcdtcNtY5mHDX5wDoNleAvhmmERHkDkP-u5FUXVCsqS06xJJRGkHyqiVgYPf5dU9f0MK7L4YypH54BHG5-K-6ZyYdnhWBWhmdhb5m3zh9ALfBkQongwnGLm8KkJvferAsgSMfncNgxqJoYrCtpxdhVtnr8OBrNvgK4RnMgbg91jKCH10=w2052-h1322-s-no-gm?authuser=0" 
+                alt="Survey form page"
+                >
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Survey Form
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a 
+            href="https://codepen.io/Bgass-the-lessful/pen/vYPGLgN" 
+            target="_blank" 
+            class="project project-tile"
+            >
+                <img 
+                src="https://lh3.googleusercontent.com/pw/ABLVV861Mqrm6BGCX_EUmJX99EyqZvAa37F3aKgVtTVsmQFAUaG0pRhAqx4yGT1t4sPD9G0LhcO0XXeDLPMQRoj43VYhwaoDFHJRr4uLBHLnc_j1pfnQo-ZHisd9B7E7AWG-vz5vXFyTnqU4mKqTooNKDHngRark4rKcmFvzMRkT1yLsiPmSdOfC2drR7m-lnTzIwl7XNJzuHG_6lNGvoayChQFJxF0YkcYFIPY3iXv_PnMUfpYo7yeRF8fkAHcCki4454k7npTQpmHybLZep5v-j2tihjscKGJCUhPgTyRzRMUnP7jrYy2wiGxL1nhFRDV2ryRI8pPNHtr7OmrR_oBvN6alUycC8moXG9XeiTqMbODjTM5id0lOtNM66Vp0VCLxAZCHabS8R9VRV0FxLFH-Wg3HTfVHeRh-foFs4cv3VZgF6R8hzi_xbS4u4Rro7Cj0xJyDIM262GHuilsGUdqWlqBOeI7yRcx3Fi_5tjBTc60MXb4IKNWLkamyoWcgTi-fEKCqJwZVjVl2Vw8lDrvwp_AtF0RzFBL_PvAi-CNgYzQfw7vcPYrksBCsUT5YuyNlYUQAnYtZhTHAa1YatI1sKxJYIvQvdCvbG_eacbV8Z5ZgId5vhGWwD_SRnULN-yG7cssl4vtafrif7HfZMX2lsK-YAQlU-DCiYAtAzLf7B2P5lsJREejZQJMSsMYMziokg37GNgbJL-xisDXYWqk1s6uUNIc3fVlSCVofNWSZDqUjA1yaqtfUPWUCxhbZZsIIqsyd7YMMyhAmEAZdAI4_3NsAWc0RYiJqjIo11XB3M7ZPwUSafv_O3veoCNHwczeDloqimbF9Nh6CKKqaebVzvjrCy2-wQqr3FRdizHo8oXPOtMOAWEp0XmU5C0erWKPO_NX5dhw=w2048-h1320-s-no-gm?authuser=0" 
+                alt="Technical document page"
+                >
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                        Technical Document Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+        </div>
+        <a href="https://codepen.io/your-work" class="btn btn-shows-all" target="_blank">
+            Shows All <i class="fa-solid fa-angle-right"></i>
+        </a>
+    </section>
+    <!-- END PROJECT SECTION -->
+
+    <!-- START CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Let's work together,,,</h2>
+            <p>Contact me!</p>
+        </div>
+        <div class="contact-links">
+            <a href="https://github.com/bagasww01" target="_blank" class="btn contact-details">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="mailto:bagas.wiradinata01@gmail.com" target="_blank" class="btn contact-details">
+                <i class="fa-solid fa-at"></i> Send a mail
+            </a>
+            <a href="https://www.instagram.com/bagasww_/" target="_blank" class="btn contact-details">
+                <i class="fa-brands fa-instagram"></i> instagram
+            </a>
+        </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+    <footer>
+        <p>© Created By Bagas Wiradinata</p>
+    </footer>
+    <!-- END FOOTER SECTION -->
 </body>
 </html>
