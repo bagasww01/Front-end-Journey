@@ -15,6 +15,6 @@
 1. This is the first project that i actually put a lot of effort to it
 2. Not just that, i learn so much about how to adjust the width and height properly, as well as flexbox adjustment
 
---> There are 3 more projects to go!
-
-
+--> Personal Portofolio
+1. This is the final project for the Responsive Web Design Certificate
+2. truly glad that i can finished in less than 1 month.
